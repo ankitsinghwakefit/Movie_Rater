@@ -1,5 +1,5 @@
 body {
-  background-color: #f3145e;
+  background-color: #b1e7da;
   font-family: "Poppins", sans-serif;
 }
 body .outer_box {
@@ -42,8 +42,9 @@ body .outer_box .inner_box p {
 }
 
 .img_box {
-  width: 30%;
-  height: 330px;
+  min-width: 300px;
+  max-width: 45%;
+  height: 450px;
   margin-left: 5%;
 }
 .img_box .poster_img {
