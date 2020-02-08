@@ -1,0 +1,55 @@
+body {
+    background-color: #f3145e;
+    font-family: 'Poppins', sans-serif;
+    .outer_box{
+        margin: 2rem auto;
+        width: 70%;
+        .inner_box {
+            line-height: 1.7;
+            h1{
+                margin-bottom: 2rem;
+                font-size: 2.7rem;
+                font-weight: 900;
+            }
+            .input_box {
+                margin-bottom: 2rem;
+                width: 60%;
+                padding: 1rem 1rem;
+                font-size: 1rem;
+                border-radius: 10px;
+                border: 2px solid black;
+            }
+            .btn {
+                height: 3.2rem;
+                // border: 2px solid #f3145e;
+                border-radius: 10px;
+                border: 2px solid black;
+                // width: 10%;
+                background-color: white;
+                color: #f3145e;
+                font-weight: 700;
+                font-size: 1.5rem;
+                margin-bottom: 2rem;
+                // margin-left: 5%;
+                -webkit-box-shadow: 4px 4px 2px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 4px 4px 2px 0px rgba(0,0,0,0.75);
+                box-shadow: 4px 4px 2px 0px rgba(0,0,0,0.75);
+            }
+            p {
+                font-size: 1.5rem;
+                color: black;
+                font-weight: 600;
+            }
+        }
+    }
+}
+.img_box {
+    width: 30%;
+    height: 330px;
+    margin-left: 5%;
+    .poster_img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+}
